@@ -18,6 +18,9 @@
     /* justify-content: center; */
     /* border: 2px solid red; */
 }
+.mobile-list{
+    display: none;
+}
 .amazon-logo img{
     height:30px;
     background-size: contain;
@@ -482,4 +485,61 @@ section{
     padding-bottom: 20px;
     font-size: 12px;
     line-height: 15px;
+}
+/* ###################### Media query #############################3 */
+
+@media (max-width: 480px){
+    /* .content1item1,.content2item1,.content3,.container4,.container5{ */
+        .content6peragraph,.mobile{
+        display: none;
+    }
+    .header-container{
+        position: relative;
+        height: 200px;
+    }
+    .navbar-container .container1 a{
+        position: absolute;
+        top: 8px;
+        left: 20px;
+    }
+    .amazon-logo{
+        position: absolute;
+        top: 4.5px;
+        left: 40px;
+    }
+    .content6 i{
+        position: absolute;
+        top: 10px;
+        right: 30px;
+    }
+    .content2 input{
+        position: absolute;
+        top: 40px;
+        width: 390px;
+        left: 10px;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+    .content2 i{
+        position: absolute;
+        top: 40px;
+        right: 28px;
+    }
+    .mobile-list {
+        position: absolute;
+        top:100px;
+        left: 0;
+        display: flex;
+        max-width: 1000px;
+    }
+    .mobile-list ul{
+        display: flex;
+    }
+    .mobile-list li{
+        display: flex;
+        text-decoration: none;
+        font-size: 10px;
+        color: #ffffff;
+        gap: 20px;
+    }
 }
