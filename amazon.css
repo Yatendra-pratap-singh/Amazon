@@ -4,25 +4,25 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
-.header-container{
-    height: 50px;
+.header-container{    
     background: #0f1111;
+    padding: 10px 10px 10px 15px;
+    /* border: 2px solid red; */
+}
+.header-container1{
+    /* height: 20px; */
+    min-width: 1500px;
     display: flex;
+    gap: 30px;
     align-items: center;
-    justify-content: space-between;
-    padding: 5px 10px 5px 10px;
+    /* justify-content: center; */
     /* border: 2px solid red; */
 }
 .amazon-logo img{
-    height:45px;
-    width: 100%;
-    background-size: cover;
-    object-position: center;
+    height:30px;
+    background-size: contain;
+   
     /* border: 2px solid red; */
-}
-.amazon-logo{
-    height:50px;
-    width: 100px;
 }
 .hover:hover{
     border: 1px solid white;
@@ -39,12 +39,12 @@
 }
  .content1item1 .content1item1-peragraph1{
     color: #cccccc;
-    font-size: 0.73rem;
+    font-size: 11px;
  }
  .content1item1 .content1item1-peragrabh2{
     color: white;
     font-weight: 800;
-    font-size: 0.8rem;
+    font-size: 11.8px;
  }
 .content2{
     display: flex;
@@ -55,14 +55,14 @@
     background: #f3f3f3;
     border: none;
     height: 40px;
-    width: 50px;
+    width: 60px;
     text-align: center;
     border-top-left-radius: 4px;
     border-bottom-left-radius: 4px;
     padding: 10px;
 }
 .content2 input{
-    width: 45vw;
+    width: 54vw;
     height: 40px;
     font-size: 1rem;
     border: none;
@@ -85,25 +85,25 @@
     color: #fff;
     text-transform: uppercase;
     font-weight: 800;
-    font-size: 0.8rem;
+    font-size: 11.8px;
 }
 .content4 .content4peragraph1{
     color: #fff;
-    font-size: 0.73rem;
+    font-size: 11px;
 }
 .content4 .content4peragraph2{
     color: #fff;
     font-weight: 800;
-    font-size: 0.8rem;
+    font-size: 11.8px;
 }
 .content5 .content5peragraph1{
     color: white;
-    font-size: 0.73rem;
+    font-size: 11px;
 }
 .content5 .content5peragraph2{
     color: #fff;
     font-weight: 800;
-    font-size: 0.8rem;
+    font-size: 11.8px;
 }
 .content6{
     display: flex;
@@ -115,8 +115,8 @@
 }
 .content6 .content6peragraph{
     color: white;
-    font-size: 0.8rem;
-    font-weight: 600;
+    font-size: 11.8px;
+    font-weight: 800;
     margin-top: 0.8rem;
 }
 /* ####################### Navbar ###########################3 */
@@ -256,17 +256,19 @@
 /* ############################# section #####################################*/
 section{
     background-color: #f3f3f3;
-    padding: 0px 38px 0px 38px;
+    padding: 0px 20px 0px 20px;
     /* border: 2px solid red; */
    
 }
 .section-container{
     background-image: url('image/hero1.jpg');
-    max-height: 1000vh;  
+    /* max-height: 1000vh;   */
+    min-width: 1400px;
     background-size: contain;
     background-repeat: no-repeat;
     object-position: center;
-    padding: 225px 15px 20px 15px;
+    padding: 225px 10px 20px 15px;
+    /* border: 2px solid red; */
 }
 .container1-peragraph{
     background-color: #f3f3f3;
@@ -274,7 +276,6 @@ section{
     width: 100%;
     color: #555;
     font-size: 0.8rem;
-   
     display: flex;
     align-items: center;
     justify-content: center;
@@ -284,14 +285,17 @@ section{
     text-decoration: none;
     color: green;
 }
-.box-container{
+.image-set1{
+    min-width: 1330px;
     /* border: 2px solid red; */
     display: flex;
-    justify-content: space-evenly;
-    gap: 20px;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 20px;
    
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 }
+
 .box1{
     background-color: #ffffff;
     height: 420px;
@@ -346,6 +350,14 @@ section{
     height: 420px;
     width: 306px;
     padding: 20px;
+}
+.image-set2{
+    min-width: 1330px;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 20px;
 }
 .box3{
     background-color: #ffffff;
@@ -418,11 +430,16 @@ section{
     cursor: pointer;
 }
 .footer2{
-    display: flex;
     background-color: #232f3e;
-    /* justify-content: space-evenly; */
+    padding: 60px 0px 30px 0px;
+    /* border: 2px solid red; */
+}
+.footer2-container{
+    min-width: 980px;
+    display: flex;
     gap: 80px;
-    padding: 50px 0px 20px 370px;
+    justify-content: center;
+    /* border: 2px solid red; */
 }
 .footer2 .items h2{
     font-size: 16px;
@@ -435,10 +452,15 @@ section{
 }
 .footer4{
     background-color: #131a22;
+    padding: 0px 0px 30px 5px;
+    /* border: 2px solid red;      */
+}
+.footer4-container{
+    min-width: 1020px;
+    gap: 30px;
     display: flex;
     justify-content: center;
-    gap: 30px;
-    padding: 0px 200px 30px 300px;    
+    /* border: 2px solid red; */
 }
 .footer4 h2{
     color: #DDDDDD;
