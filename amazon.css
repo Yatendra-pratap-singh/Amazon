@@ -492,7 +492,6 @@ section{
 /* ###################### Media query #############################3 */
 
 @media (max-width: 480px){
-    /* .content1item1,.content2item1,.content3,.container4,.container5{ */
         .content6peragraph,.mobile{
         display: none;
     }
