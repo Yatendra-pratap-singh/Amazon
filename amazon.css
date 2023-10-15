@@ -597,7 +597,8 @@ section{
         /* border: 2px solid red; */
     }
    .scroll-img{
-    max-width: 455px;
+    max-width: 450px;
+    /* border: 2px solid red; */
         display: flex;
         position: absolute;
         top: 260px;
@@ -620,6 +621,7 @@ section{
         font-size: 15.1px;
         text-align: center;
         padding: 20px 104px 20px 100px;
+        /* border: 2px solid red; */
     } 
     .section-container .container1-peragraph a{
         text-decoration: none;
@@ -641,16 +643,17 @@ section{
         flex-direction: column;
         gap: 20px;
         padding: 15px;
+       
     }
     .box1-item1 img{
-        width: 200px;
+        width: 180px;
         height: 200px;
         margin-right: 15px;
         background-size: cover;
         object-position: center;
     }
     .box1-item2 img{
-        width: 200px;
+        width: 180px;
         height: 200px;
         margin-right: 15px;
         background-size: cover;
@@ -675,12 +678,13 @@ section{
         left: 0;
         background-color: #ffffff;
         height: 530px;
-        width: 460px;
+        width: 450px;
         padding: 10px;
+        /* border: 2px solid red; */
     }
     .box2 img{
         height: 440px;
-        width: 440px;
+        width: 420px;
         background-size: cover;
         object-position: center;
         margin-top: 10px;
@@ -699,6 +703,7 @@ section{
     left: 0;
     width: 100%;
         order: 1;
+        /* border: 2px solid red; */
         background-color: #ffffff;
         display: flex;
         padding: 15px 20px 10px 20px;
