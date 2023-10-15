@@ -596,7 +596,7 @@ section{
         /* border: 2px solid red; */
     }
    .scroll-img{
-    max-width: 410px;
+    max-width: 455px;
         display: flex;
         position: absolute;
         top: 260px;
@@ -609,17 +609,20 @@ section{
         display: inline-block;
        padding: 5px;
     }
+    .scroll-img::-webkit-scrollbar{
+        width: 0;
+     }
     .container1-peragraph{
         background-color: #232f3e;
         height: 85px;
         color: #fff;
-        font-size: 14px;
+        font-size: 15.1px;
         text-align: center;
-        padding: 20px 101px 20px 94px;
+        padding: 20px 104px 20px 100px;
     } 
     .section-container .container1-peragraph a{
         text-decoration: none;
         color: #fff;
-        font-size: 12px;
+        font-size: 13px;
     }
 }
