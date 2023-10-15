@@ -585,7 +585,7 @@ section{
      section{
         background-color: #f3f3f3;   
         /* background-color: aquamarine; */
-        height: 199vh;
+        height: 190vh;
         padding: 0;    
     }
      .section-container{
@@ -735,7 +735,7 @@ section{
     }
     .footer2-container{
         /* height: 300px; */
-        min-width: 90px;
+        min-width: 130px;
         display: flex;
         /* gap: 80px; */
         justify-content: center;
