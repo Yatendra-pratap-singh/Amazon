@@ -584,30 +584,42 @@ section{
      }
      section{
         background-color: #f3f3f3;   
-        /* background-color: blue; */
         padding: 0;    
     }
      .section-container{
         background-image: url('image/hero1.jpg');
         min-width: 100px;
-        /* background-size: contain; */
         object-fit: cover;
         background-repeat: no-repeat;
         object-position: center;
+        padding: 215px 0px 0px 0px;
         /* border: 2px solid red; */
     }
    .scroll-img{
-    max-width: 460px;
+    max-width: 410px;
         display: flex;
         position: absolute;
-        top: 280px;
+        top: 260px;
         left: 0px;
         white-space: nowrap;
         overflow-x: scroll;
-        z-index: 8;
+        /* z-index: 8; */
     }
     .scroll-img1 img{
         display: inline-block;
        padding: 5px;
+    }
+    .container1-peragraph{
+        background-color: #232f3e;
+        height: 85px;
+        color: #fff;
+        font-size: 14px;
+        text-align: center;
+        padding: 20px 101px 20px 94px;
+    } 
+    .section-container .container1-peragraph a{
+        text-decoration: none;
+        color: #fff;
+        font-size: 12px;
     }
 }
