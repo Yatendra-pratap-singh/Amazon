@@ -495,7 +495,7 @@ section{
     }
     .header-container{
         position: relative;
-        height: 200px;
+        height: 120px;
     }
     .navbar-container .container1 a{
         position: absolute;
@@ -515,7 +515,7 @@ section{
     .content2 input{
         position: absolute;
         top: 40px;
-        width: 81vw;
+        width: 80vw;
         left: 10px;
         border-top-left-radius: 10px;
         border-bottom-left-radius: 10px;
@@ -523,7 +523,7 @@ section{
     .content2 i{
         position: absolute;
         top: 40px;
-        right: 35px;
+        right: 38px;
     }
     .mobile-list {
         display: flex;
@@ -543,12 +543,50 @@ section{
         display: inline-block;
         padding: 10px;
         text-decoration: none;    
-        font-size: 13px;
+        font-size: 14px;
         color: #ffffff;
         cursor: pointer;
         /* border: 2px solid red; */
     }
     .mobile-list::-webkit-scrollbar{
        width: 0;
+    }
+    .container1-peragraph1,.container2 .menu-items{
+        display: none;
+    }
+    .location-icon{
+        display: block;
+        position: absolute;
+        top: 120px;
+        left: 6px;
+    }
+    .content1item1{
+        display: flex;
+        position: absolute;
+        top: 135px;
+        left:28px;
+        gap: 10px;
+    }
+    .content1item1 .content1item1-peragraph1{
+        display: block;
+        color: #ffffff;
+        font-weight: 600;
+        font-size: 11px;
+     }
+     .content1item1 .content1item1-peragrabh2{
+        display: block;
+        color: #ffffff;
+        font-weight: 600;
+        font-size: 11px;
+     }
+     .section-container{
+        background-image: url('image/hero1.jpg');
+        /* max-height: 1000vh;   */
+        min-width: 700px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        object-position: center;
+        /* padding: 225px 10px 20px 15px; */
+        /* border: 2px solid red; */
     }
 }
