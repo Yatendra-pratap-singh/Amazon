@@ -579,14 +579,17 @@ section{
         font-weight: 600;
         font-size: 11px;
      }
+     section{
+        background-color: #f3f3f3;   
+        padding: 0;    
+    }
      .section-container{
         background-image: url('image/hero1.jpg');
-        /* max-height: 1000vh;   */
-        min-width: 700px;
-        background-size: contain;
+        min-width: 100px;
+        /* background-size: contain; */
+        object-fit: cover;
         background-repeat: no-repeat;
         object-position: center;
-        /* padding: 225px 10px 20px 15px; */
-        /* border: 2px solid red; */
+        border: 2px solid red;
     }
 }
