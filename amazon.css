@@ -492,6 +492,10 @@ section{
 /* ###################### Media query #############################3 */
 
 @media (max-width: 480px){
+    html, body{
+        width: 100%;
+        overflow-x: hidden;
+    }
         .content6peragraph,.mobile{
         display: none;
     }
